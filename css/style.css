@@ -8,12 +8,12 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color:#333;
   background-color: #f4f4f4;
 }
 
 header {
-  background-color: #333;
+  background-color: #34495E;
   padding: 20px 0;
 }
 
@@ -28,7 +28,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #dbdada;
   text-decoration: none;
   font-weight: bold;
 }
