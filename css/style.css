@@ -86,3 +86,37 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.xp-item { 
+  background: #fff; 
+  border: 1px solid #eee; 
+  border-radius: 12px; 
+  padding: 16px 20px; 
+  margin: 16px 0; 
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.xp-item h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.xp-periodo { color: #666; margin: 0 0 8px; font-style: italic; }
+.xp-item ul { margin: 0 0 0 18px; }
+
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+.skill-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+.skill-card ul {
+  margin: 0 0 0 18px;
+}
