@@ -4,45 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thiago Tavares Lopes | Portfólio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Thiago Tavares Lopes | Portfolio</title>
+    <!-- Import Google Fonts for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#sobre">Sobre</a></li>
-         <li><a href="#xp">Experiências</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <!-- Updated navigation links to match section IDs -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#xp">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#academic">Research &amp; Publications</a></li>
        <!-- <li><a href="#contato">Contato</a></li> -->
       </ul>
     </nav>
   </header>
 
-<section id="sobre">
-  <div class="container sobre-container">
-    <img src="img/perfil.png" alt="Foto de perfil" class="perfil">
-    <div class="sobre-texto">
-      <h1>Thiago Tavares Lopes</h1>
-      <h2> Data Scientist </h2>
-      <p style="text-align: justify;">
-        Cientista de dados com quatro anos de experiência em Análise e Modelagem de dados, experiência com Organização e Limpeza de dados, Transformação de dados e elaboração de relatórios estatísticos. Ampla experiência na construção de modelos de séries temporais, modelos dinâmicos para previsão e inferência estatística. Domínio das linguagens R e Python com ênfase em ciência de dados. Atualmente, desenvolvo projetos de modelagem de séries temporais e atuo como responsável pela análise estatística para elaboração do mapa de contaminação de águas brasileiras e também atuei como consultor estatístico na empresa Sigma Jr. de consultoria estatística.
-      </p>
-
-      <!-- Contato logo abaixo do texto sobre mim -->
-      <div class="contato-sobre">
-        <h3>Contatos</h3>
-        <p>Email: <a href="mailto:thiago.tlopess@gmail.com">thiago.tlopess@gmail.com</a></p>
-        <p>
-          <a href="https://github.com/Thiagotl" target="_blank">GitHub</a> |
-          <a href="https://www.linkedin.com/in/thiago-tavares-lopes/" target="_blank">LinkedIn</a>
-        </p>
+  <!-- Hero / About section -->
+  <section id="about">
+    <div class="container about-container">
+      <div class="about-content">
+        <img src="img/perfil.png" alt="Profile photo" class="profile">
+        <div class="about-text">
+          <h1>Thiago Tavares Lopes</h1>
+          <h2>Data Scientist</h2>
+          <p>
+            Data scientist with +4 years of experience in data analysis, modeling and time series. Proficient in R and Python with a focus on applied data science.
+          </p>
+          <!-- Contact details below the about text -->
+          <div class="contact-about">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:thiago.tlopess@gmail.com">thiago.tlopess@gmail.com</a></p>
+            <p>
+              <a href="https://github.com/Thiagotl" target="_blank">GitHub</a> |
+              <a href="https://www.linkedin.com/in/thiago-tavares-lopes/" target="_blank">LinkedIn</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 <section id="xp">
   <div class="container">
@@ -93,7 +100,8 @@
   </div>
 </section>
 
-  <section id="projetos">
+  <!-- Projects section -->
+  <section id="projects">
     <div class="container">
       <h2 style="text-align: center;">Projetos</h2>
       <div class="projeto">
@@ -113,9 +121,10 @@
   </section>
 
 
-<section id="habilidades">
+<!-- Skills section -->
+<section id="skills">
   <div class="container">
-    <h2 style="text-align: center;">Habilidades</h2>
+    <h2 style="text-align: center;">Skills</h2>
 
     <div class="skills-grid">
       <div class="skill-card">
@@ -167,6 +176,21 @@
   </div>
 </section>
   
+  <!-- Research & Publications section -->
+  <section id="academic">
+    <div class="container">
+      <h2 style="text-align: center;">Research &amp; Publications</h2>
+      <div class="projeto">
+        <h3>Unit Gompertz ARMA Model</h3>
+        <p>This research project introduces a mixed time series model combining the ARMA structure with the Unit Gompertz distribution. The model was applied to interest rate forecasting and outperformed classical time series models. The results were published in the Brazilian Journal of Probability and Statistics.</p>
+        <a href="https://github.com/Thiagotl/unit_gompertz_arma" target="_blank">View Code Repository</a>
+      </div>
+      <div class="projeto">
+        <h3>Dynamic Time Series Models</h3>
+        <p>An ongoing project focusing on implementing dynamic time series models in R to forecast various series using multiple model families and tidyverse/forecast libraries.</p>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Thiago T. Lopes. Todos os direitos reservados.</p>
